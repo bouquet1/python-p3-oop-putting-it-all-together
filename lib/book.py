@@ -16,5 +16,8 @@ class Book:
 
     page_count = property(get_page_count, set_page_count)
 
+    def turn_page(self):
+        print("Flipping the page...wow, you read fast!") 
     
+
 
